@@ -1,0 +1,290 @@
+body{
+	overflow-x:hidden;
+}
+nav{
+	border-bottom: 5px blue solid;
+	opacity: 0.8;
+}
+nav .navbar-nav li a{
+  color: white !important;
+/*  font-weight: 500;*/
+ }
+ nav .navbar-nav li a:hover{
+  color: rgb(59, 131, 186) !important;
+/*  font-weight: 500;*/
+ }
+ .navbar .navbar-brand{
+	font-weight: 700;
+	font-size: 2.5rem;
+	color: white;
+}
+
+.bg-dark{
+	background-color: black;
+}
+#head-image{
+	background-image: url(../img/home.jpg);
+	padding-top: 70%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 700px;
+
+}
+#head-image-space{
+	background-image: url(../img/office3.jpg);
+	padding-top: 70%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 700px;
+
+}
+#membership-header{
+	background-image: url(../img/laptop2.jpg);
+	padding-top: 70%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 700px;
+
+}
+.dark-overlay{
+	background-color: black;
+	margin-top: -70%;
+	padding-top: 70%;
+	opacity: 0.7;
+	/*height: 700px;*/
+	background-size: cover;
+}
+.head-inner{
+	margin-top: -50%;
+}
+.head-inner > .btn{
+	border-radius: 0px;
+	background-color: rgb(13, 132, 153);
+	font-weight: 700;
+}
+.header-inner > .btn:hover{
+	color: white;
+	background-color: black;
+}
+.text-bold{
+	font-weigh: 700;
+}
+.headings{
+	font-weight: 700;
+	font-size: 3rem;
+	color: rgb(43, 67, 104);
+}
+.button{
+	width: 10%;
+	border-radius: 0px;
+	background-color: rgb(83, 91, 104);
+	font-weight: 700;
+}
+.button:hover{
+	background-color: rgb(43, 67, 104);
+	color: white;
+}
+#nomad{
+	background-image: url(../img/office3.jpg);
+    padding-top: 84%;
+    width: 105%;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+#lite-member{
+	background-image: url(../img/chess4.jpg);
+    padding-top: 84%;
+    width: 105%;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+#full-member{
+	background-image: url(../img/coffee1.jpg);
+    padding-top: 84%;
+    width: 105%;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+#resident{
+	background-image: url(../img/office2.jpg);
+    padding-top: 84%;
+    /*padding-left: -20%;*/
+    width: 105%;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+.dark-overlay2{
+	background-color: black;
+	margin-top: -80%;
+	padding-top: 100%;
+	opacity: 0.6;
+	height: 700px;
+	background-size: cover;
+}
+.nomad-resident-pull-up{
+	margin-top: -60%;
+}
+.explore-btn{
+	border-radius: 0px;
+	border: 2px white solid;
+	width: 25%;
+}
+.explore-btn:hover{
+	background-color: white;
+	color: black !important;
+}
+.text-bold{
+	font-weight: 700;
+}
+.icon-color{
+	color: rgb(43, 67, 104);
+}
+.icon-text{
+	font-size: 2rem;
+}
+.center{
+	margin-left: 20%;
+}
+.space-center{
+	margin-left: 34%;
+}
+.button-left{
+	width: 100%;
+	border-radius: 0px;
+	background-color: rgb(83, 91, 104);
+	font-weight: 700;
+	/* margin-left: 350%; */
+}
+.button-left:hover{
+	background-color: rgb(43, 67, 104);
+	color: white;
+}
+#become{
+	background-image: url(../img/coffee7.jpg);
+	padding-top: 30%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 300px;
+	background-attachment: fixed;
+}
+.become-text{
+	padding-top: 12%;
+}
+.meeting-text{
+	padding-top: 15%;
+}
+.dark-overlay3{
+	background-color: black;
+	opacity: 0.8;
+	height: 405px;
+	margin-top: -30%;
+}
+#meeting-room{
+	background-image: url(../img/laptop2.jpg);
+	padding-top: 30%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 605px;
+	background-attachment: fixed;
+}
+.dark-overlay4{
+	background-color: black;
+	opacity: 0.8;
+	height: 605px;
+	margin-top: -30%;
+}
+#explore-workplace{
+	background-image: url(../img/share-section1.jpg);
+	padding-top: 30%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 300px;
+	background-attachment: fixed;
+}
+.dark-overlay5{
+	background-color: black;
+	opacity: 0.8;
+	height: 405px;
+	margin-top: -30%;
+}
+
+.become-btn{
+	background-color: rgb(43, 67, 104);
+	border-radius: 0px;
+	color: white;
+	opacity: 1.0;
+}
+.footer-heading{
+	font-size: 1.5rem;
+}
+.small-text{
+	font-size: 0.8rem;
+}
+#footer-image{
+	background-image: url(../img/chess5.jpg);
+	opacity: 0.5;
+	padding-top: 0%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 300px;
+	width: 500px;
+}
+.black-background{
+	background-color: rgb(83, 91, 104);
+	height: 250px;
+}
+
+@media(min-width: 411px){
+	.see-all-btn{
+		margin-left: 50%;
+	}
+
+	.button{
+		width: 15%;	
+	}
+
+	.dark-overlay3{
+		margin-top: -30%;
+		height: 300px;
+	}
+
+	.dark-overlay5{
+		height: 300px;
+	}
+}
+
+@media(min-width: 1300px){
+	.dark-overlay3{
+		height: 409px;
+	}
+
+	.dark-overlay5{
+		height: 409px;
+	}
+		.see-all-btn{
+		margin-left: 350%;
+	}
+
+}
+
+@media(min-width: 1440px){
+	.dark-overlay3{
+		height: 435px;
+	}
+
+	.dark-overlay5{
+		height: 435px;
+	}
+	.see-all-btn{
+		margin-left: 350%;
+	}
+
+}
+/* @media(max-width: 1024px){
+	.see-all-btn{
+		margin-left: 220%;
+	}
+} */
